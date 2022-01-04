@@ -1,0 +1,12 @@
+<!-- ingredients -->
+
+<div align="center"><h5>~Υλικά~</h5></div> 
+<div align="center" style="background-color: #cecece;margin-left: 7%;
+margin-right: 7%; word-break: break-all; word-wrap: break-word;">
+{{ range $index, $ingredient := split (chomp .Inner) "\n" }}
+	{{ if (eq $index 0) }}
+	{{ else }}
+		{{ $ingredient }}<br>
+	{{ end }}
+{{ end }}
+</div>

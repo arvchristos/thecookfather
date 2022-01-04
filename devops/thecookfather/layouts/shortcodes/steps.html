@@ -1,0 +1,11 @@
+<!-- steps -->
+
+<div align="center"><h5>~Εκτέλεση~</h5></div> 
+<ul>
+{{ range $index, $ingredient := split (chomp .Inner) "\n" }}
+	{{ if (eq $index 0) }}
+	{{ else }}
+		<li>{{ $ingredient }}</li>
+	{{ end }}
+{{ end }}
+</ul>

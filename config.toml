@@ -1,0 +1,140 @@
+googleAnalytics = "UA-165264437-1"
+baseURL = "https://<USERNAME>.github.io/thecookfather"
+languageCode = "el"
+title = "The CookFather"
+theme = "thecookfather"
+summaryLength = "8"
+paginate = 9 # how many recipes per page
+
+
+[outputs]
+  home = ["html", "rss", "json"]
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = true
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "https://cdnjs.cloudflare.com/ajax/libs/headroom/0.12.0/headroom.min.js"
+  [[params.plugins.js]]
+  URL = "https://cdnjs.cloudflare.com/ajax/libs/headroom/0.12.0/jQuery.headroom.min.js"
+  #[[params.plugins.js]]
+  #URL = "https://cdnjs.cloudflare.com/ajax/libs/reading-time/2.0.0/readingTime.min.js"
+  #[[params.plugins.js]]
+  #URL = "plugins/smooth-scroll/smooth-scroll.js"
+  [[params.plugins.js]]
+  URL = "https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"
+  #[[params.plugins.js]]
+  #URL = "plugins/search/mark.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/search.js"
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/macy@2"
+
+
+
+# navigation
+[menu]
+
+  [[menu.main]]
+  name = "Συνταγες"
+  URL = "categories"
+  weight = 2
+
+  [[menu.main]]
+  name = "Μπυρες"
+  URL = "categories/μπύρες"
+  weight = 3
+
+  [[menu.main]]
+  name = "Για μενα"
+  URL = "about"
+  weight = 4
+
+#  [[menu.main]]
+#  name = "Συνταγες"
+#  URL = "posts"
+#  weight = 4
+#  identifier = "recipes"
+
+#  [[menu.main]]
+#  name = "Cakes"
+#  URL = "categories/cakes-%ce%bc%cf%80%ce%b9%cf%83%ce%ba%cf%8c%cf%84%ce%b1/"
+#  weight = 4
+#  parent = "recipes"
+#  identifier = "recipes-cakes"
+
+#  [[menu.main]]
+#  name = "Spicy"
+#  URL = "categories/cakes-%ce%bc%cf%80%ce%b9%cf%83%ce%ba%cf%8c%cf%84%ce%b1/"
+#  weight = 4
+#  parent = "recipes-cakes"
+
+
+[params]
+logo = "/images/logo/logo.png"
+home = "Αρχικη"
+# hompage layout ( two layout is available,  you can set the another layout by change the value of homeLayoutToggle "true" to "false")
+homeLayoutToggle = true
+# Meta data
+description = "This is meta description"
+# about author
+author = "thecookfather"
+authorImage = "images/banner-img.png"
+shortDescription = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
+# Contact Form Action
+contactFormAction = "#"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# copyright
+copyright = "made with &hearts; & Open Source technologies by [@arvchristos](https://www.linkedin.com/in/arvchristos/)"
+
+  [params.socialshare]
+    facebook = true
+    twitter = true
+    whatsapp = true
+    email = true
+
+  # Preloader
+  [params.preloader]
+  enable = true
+
+  # search
+  [params.search]
+  enable = true
+
+  # footer
+  [params.footer]
+
+    [[params.footer.contacts]]
+    icon = "ti-email"
+    contactInfo = "thecookfather@gmail.com"
+
+
+  # social site
+  [[params.social]]
+  icon = "ti-facebook"
+  URL = "https://www.facebook.com/thecookfather/"
+
+  [[params.social]]
+  icon = "ti-instagram"
+  URL = "https://www.instagram.com/thecookfather/?hl=en"
+
