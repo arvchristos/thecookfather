@@ -1,7 +1,7 @@
 ---
 date: 2023-05-31
 draft: false
-image: https://imgur.com/a/NHSCILz
+image: https://i.imgur.com/JZE7eIQ.jpg
 title: "Μοσχαράκι γιουβέτσι με πέτουρες Καλαβρύτων στον φούρνο"
 type: post
 categories:
